@@ -25,19 +25,19 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The game's purpose is to have the user guess a number. The user guesses a number and the game displays either "Go HIGHER!" or "Go LOWER!" for the user to get closer to the number. 
+- The first guess didn't change the number of attempts left, the new game button didn't allow starting a new game, and the "Go HIGHER!" and "Go LOWER!" clues were opposite.
+- I fixed the number of attempts bug and the new game bug.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a guess of 30
+2. Game returns "Go HIGHER!"
+3. User enters a guess of 20 -> "Go LOWER!"
+4. Score updates correctly after each guess
+5. Game ends after the correct guess
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 

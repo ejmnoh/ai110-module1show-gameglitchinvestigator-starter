@@ -49,6 +49,7 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  Streamlit reruns starts the code from the top with the current session state. This means that reruns take into account and uses variables from session state from the previous runs.
 
 
 ---
@@ -57,5 +58,8 @@ Document at least 3 bugs you found. Add rows as needed.
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  I liked using Claude to ask clarifying questions on the logic.
 - What is one thing you would do differently next time you work with AI on a coding task?
+  I would spend more time on the task myself first, then use AI.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  This project has made me understand that AI generated code doesn't have to be too complicated and unable to understand. AI generated code can be helpful.
